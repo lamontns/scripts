@@ -8,11 +8,9 @@ if [ -z "$1" ]; then
 	echo
 	echo "Usage: $0 <target-ip>"
 	echo
-	echo "** Scans the full subnet of the"
-	echo "** target IP."
+	echo "** Scans the full subnet of the target IP."
 	echo
-	echo "Ex. $0 192.168.4.20"
-	echo "Would scan 192.168.4.0/24"
+	echo "Ex. $0 192.168.4.20 -- would scan 192.168.4.0/24"
 	echo
 	exit 0
 fi
