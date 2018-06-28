@@ -6,8 +6,8 @@ if [ -z "$1" ]; then
 	echo ">> Network Recon Scanner <<"
 	echo "---------------------------"
 	echo "Usage:"
-	echo "- - - - - - - - - - - - - - - - - - - - - - - - - -"
-	echo "--auto		-> Finds and Enumerates targets"
+	echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+	echo "--auto			-> Finds and Enumerates targets"
 	echo "-t <targets.txt>	-> Enumerate with List of Targets"
 	echo
 	exit 0
