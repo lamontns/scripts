@@ -1,0 +1,13 @@
+
+
+
+# Parsing info between html tags
+
+var titleMatch = new Regex("<h1>(.*)</h1>", RegexOptions.IgnoreCase).Match(htmlInput);
+
+
+sed -e 's/<tagname>\(.*\)<\/tagname>/\1/'
+sed -e 's/<a>\(.*\)<\/a>/\1/'
+sed -e 's/<href>\(.*\)<\/href>/\1/'
+sed -e 's/<tagname>\(.*\)<\/tagname>/\1/'
+sed -e 's/<tagname>\(.*\)<\/tagname>/\1/'
